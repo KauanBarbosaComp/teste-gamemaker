@@ -2,7 +2,7 @@
  ///@arg dist
  ///@arg xscale
  
- var outro = argument0;
+/* var outro = argument0;
  var dist = argument1;
  var xscale = argument2;
  
@@ -13,4 +13,4 @@
  if(player)
  {
 	 estado = "attack";
- }
+ }*/

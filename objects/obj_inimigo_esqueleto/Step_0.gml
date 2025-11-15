@@ -10,7 +10,13 @@ if (!chao)
 	estado = "attack";
  }*/
  
- scr_ataca_player_melee(obj_player, dist, xscale);
+ var player = collision_line(x, y - sprite_height/2, x + (dist * xscale), y - sprite_height/2, player, 0, 1);
+ 
+ //se o player entrou na linha de visão
+ if(player)
+ {
+	 estado = "attack";
+ }
 
  switch(estado)
  {
