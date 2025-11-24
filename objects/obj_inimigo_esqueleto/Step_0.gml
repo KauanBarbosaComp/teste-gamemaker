@@ -78,7 +78,7 @@ if (!chao)
 		//condicao de troca de estado
 		if(vida_atual > 0)
 		{
-			if(image_index > image_number -1)
+			if(image_index >= image_number -1)
 			{
 				estado = "parado";
 			}
@@ -94,9 +94,12 @@ if (!chao)
 	 }
 	 case "attack":
 	 {
+		velh = 0;
 		if(sprite_index != spr_inimigo_esqueleto_attack)
 		{
 			image_index = 0;
+			posso = true;
+			dano = noone
 		}
 		sprite_index = spr_inimigo_esqueleto_attack;
 		
@@ -105,6 +108,21 @@ if (!chao)
 		{
 			estado = "parado"
 		}
+		
+		//criando o dano
+		if(image_index >= 8 && dano == noone && image_index < 15 && posso){
+			dano = instance_create_layer(x + sprite_width /2,y - sprite_height /4 ,layer,obj_dano);
+			dano.dano = ataque;
+			dano.pai = id;
+			posso = false;
+		}
+		
+		//destruindo o dano
+		if(dano != noone && image_index >= 15){
+			instance_destroy(dano);
+			dano = noone;
+		}
+		
 		break;
 	 }
 	 

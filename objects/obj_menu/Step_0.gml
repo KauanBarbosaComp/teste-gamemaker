@@ -1,7 +1,7 @@
 // --- 1. ler o inputs do teclado ---
-var _key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed("S");
+var _key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 
-var _key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed("W");
+var _key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 
 // --- 2. mover seleção ---
 

@@ -205,16 +205,88 @@ switch(estado)
 	}
 	#endregion
 	
+	#region hit
+	case "hit":
+	{
+		if(sprite_index != spr_player_hit){
+			image_index = 0;
+		}
+		sprite_index = spr_player_hit;
+		
+		//ficando parado quando leva dano
+		velh = 0;
+		//condição de troca de estado
+		//checando se deve morrer
+		if(vida_atual > 0){
+			if(image_index > image_number - 1){
+				estado = "parado";
+			}
+		}
+		else{
+			if(image_index >= image_number - 1){
+				estado = "dead";
+			}
+		}
+		//show_debug_message(vida_atual);
+		break;
+	}
+	
+	#endregion
+	
 	#region dash
 	case "dash":
 	{
-		sprite_index = spr_player_dash;
+		if(sprite_index != spr_player_dash){
+			image_index = 0;
+			sprite_index = spr_player_dash;
+		}
 		//velocidade
 		velh = image_xscale * dash_vel;
+		//saindo do estado
 		if(image_index >= image_number -1){
 			estado = "parado"
 		}
+		break;
 	}
 	#endregion
+	
+	#region dead
+	case "dead":
+	{
+		if(sprite_index != spr_player_dead)
+		{
+			image_index = 0;
+			sprite_index = spr_player_dead;
+			velh = 0;
+		}
+		//ficando parado na morte
+		if(image_index > image_number -1)
+		{
+			image_index = image_number -1;
+		}
+		
+		break;
+	}
+	default:
+	{
+		estado = "parado";
+	}
 }
 if(keyboard_check(vk_enter)) room_restart();
+
+
+// --- Código de Pausa ---
+// (Adicione isso ao seu código de Step já existente)
+
+var _key_pause = keyboard_check_pressed(vk_escape);
+
+// Se a tecla de pausa foi pressionada
+if (_key_pause)
+{
+    // E se o jogo NÃO ESTIVER já pausado
+    if (!instance_exists(obj_menu_pausa))
+    {
+        // Crie o objeto de menu de pausa
+        instance_create_layer(0, 0, "Instances", obj_menu_pausa);
+    }
+}
