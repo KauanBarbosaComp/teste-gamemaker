@@ -143,9 +143,9 @@ switch(estado)
 		}
 		
 		//criando o objeto de dano
-		if(image_index >= 2 && dano == noone && posso)
+		if(image_index >= 3 && image_index < 4  && dano == noone && posso)
 		{
-			dano = instance_create_layer(x + sprite_width/3, y - sprite_height/4, layer, obj_dano);
+			dano = instance_create_layer(x + sprite_width/2, y - sprite_height/4, layer, obj_dano);
 			dano.dano = ataque * ataque_mult;
 			dano.pai = id;
 			posso = false;
@@ -253,6 +253,7 @@ switch(estado)
 	#region dead
 	case "dead":
 	{
+		velh = 0;
 		if(sprite_index != spr_player_dead)
 		{
 			image_index = 0;

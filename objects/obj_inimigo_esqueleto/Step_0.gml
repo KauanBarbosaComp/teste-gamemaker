@@ -110,15 +110,15 @@ if (!chao)
 		}
 		
 		//criando o dano
-		if(image_index >= 8 && dano == noone && image_index < 15 && posso){
-			dano = instance_create_layer(x + sprite_width /2,y - sprite_height /4 ,layer,obj_dano);
+		if(image_index >= 8 && dano == noone && image_index < 9 && posso){
+			dano = instance_create_layer(x + sprite_width /1.5,y - sprite_height /4 ,layer,obj_dano);
 			dano.dano = ataque;
 			dano.pai = id;
 			posso = false;
 		}
 		
 		//destruindo o dano
-		if(dano != noone && image_index >= 15){
+		if(dano != noone && image_index >= 9){
 			instance_destroy(dano);
 			dano = noone;
 		}
@@ -128,6 +128,7 @@ if (!chao)
 	 
 	 case "dead":
 	 {
+		 velh = 0;
 		 if(sprite_index != spr_inimigo_esqueleto_dead)
 		{
 			//iniciando o que for preciso para este estado

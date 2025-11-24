@@ -39,6 +39,9 @@
     "name":"spr_inimigo_esqueleto_idle",
     "path":"sprites/spr_inimigo_esqueleto_idle/spr_inimigo_esqueleto_idle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_player_base",
+    "path":"sprites/spr_player_base/spr_player_base.yy",
+  },
   "visible":true,
 }
