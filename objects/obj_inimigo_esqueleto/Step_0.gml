@@ -10,13 +10,7 @@ if (!chao)
 	estado = "attack";
  }*/
  
- var player = collision_line(x, y - sprite_height/2, x + (dist * xscale), y - sprite_height/2, player, 0, 1);
- 
- //se o player entrou na linha de visão
- if(player)
- {
-	 estado = "attack";
- }
+
 
  switch(estado)
  {
@@ -46,6 +40,8 @@ if (!chao)
 			estado = choose("andando","parado","andando");
 			timer_estado = 0;
 		}
+		//atacando
+		scr_ataca_player_melee(obj_player, dist, xscale);
 		break;
 	 }
 	 case "andando":
@@ -65,7 +61,8 @@ if (!chao)
 			estado = choose("parado", "andando", "parado");
 			timer_estado = 0;
 		}
-		
+		//atacando
+		scr_ataca_player_melee(obj_player, dist, xscale);
 		break;
 	 }
 	 

@@ -1,5 +1,4 @@
 //declarando variaveis e controles de movimentacao
-// abass aaehbiajcneo
 var right, left, jump, attack, dash;
 var chao = place_meeting(x, y + 1, obj_block);
 
