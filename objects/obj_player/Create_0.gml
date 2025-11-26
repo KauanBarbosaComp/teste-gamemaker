@@ -6,7 +6,7 @@ cam.alvo = id;
 // Inherit the parent event
 event_inherited();
 
-vida_max = 2;
+vida_max = 5;
 vida_atual = vida_max;
 
 max_velh = 4;
