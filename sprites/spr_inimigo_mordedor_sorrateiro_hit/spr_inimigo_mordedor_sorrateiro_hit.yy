@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":42,
   "bbox_left":20,
-  "bbox_right":49,
+  "bbox_right":41,
   "bbox_top":10,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5848e315-2dc2-42c7-ad1a-de5fb30ee89e","name":"5848e315-2dc2-42c7-ad1a-de5fb30ee89e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"6cfd1623-778b-4d00-90c0-8b83d6dbaf6a","name":"6cfd1623-778b-4d00-90c0-8b83d6dbaf6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"eea36515-05f6-4406-b03e-e97836d74d7c","name":"eea36515-05f6-4406-b03e-e97836d74d7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"0b702dea-c434-40da-a1b1-85fda5e249fc","name":"0b702dea-c434-40da-a1b1-85fda5e249fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"175a0e0b-f478-4948-b99c-a4ffd142916e","name":"175a0e0b-f478-4948-b99c-a4ffd142916e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7bfb7e8-3928-4c18-8ff9-fba3135df9d7","name":"f7bfb7e8-3928-4c18-8ff9-fba3135df9d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -26,7 +26,7 @@
   ],
   "name":"spr_inimigo_mordedor_sorrateiro_hit",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Mordedor",
     "path":"folders/Sprites/Inimigos/Mordedor.yy",
@@ -72,23 +72,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5848e315-2dc2-42c7-ad1a-de5fb30ee89e","path":"sprites/spr_inimigo_mordedor_sorrateiro_hit/spr_inimigo_mordedor_sorrateiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fc67b14f-4eab-42a8-a45a-ce2f8b08d633","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6cfd1623-778b-4d00-90c0-8b83d6dbaf6a","path":"sprites/spr_inimigo_mordedor_sorrateiro_hit/spr_inimigo_mordedor_sorrateiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2ebb96a4-6d2c-4323-927e-0fcd7e4fad48","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2ebb96a4-6d2c-4323-927e-0fcd7e4fad48","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eea36515-05f6-4406-b03e-e97836d74d7c","path":"sprites/spr_inimigo_mordedor_sorrateiro_hit/spr_inimigo_mordedor_sorrateiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"50d3c032-2cda-4f54-91a3-8e5f48ea998c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"50d3c032-2cda-4f54-91a3-8e5f48ea998c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b702dea-c434-40da-a1b1-85fda5e249fc","path":"sprites/spr_inimigo_mordedor_sorrateiro_hit/spr_inimigo_mordedor_sorrateiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5ade85d0-2148-4237-862e-2ff69765b52f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"175a0e0b-f478-4948-b99c-a4ffd142916e","path":"sprites/spr_inimigo_mordedor_sorrateiro_hit/spr_inimigo_mordedor_sorrateiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"354db9c9-090c-4731-b877-4d9c64320431","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7bfb7e8-3928-4c18-8ff9-fba3135df9d7","path":"sprites/spr_inimigo_mordedor_sorrateiro_hit/spr_inimigo_mordedor_sorrateiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"47b3f7d4-1255-467f-a2e4-c61d43109b7d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":31,
+    "yorigin":34,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

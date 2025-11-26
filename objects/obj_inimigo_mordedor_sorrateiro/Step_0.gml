@@ -72,19 +72,19 @@ switch(estado)
 	
 	case "hit":
 	{
-		if(sprite_index != spr_inimigo_esqueleto_hit)
+		if(sprite_index != spr_inimigo_mordedor_sorrateiro_hit)
 		{
 			//iniciando o que for preciso para este estado
 			image_index = 0;
 		}
-		sprite_index = spr_inimigo_esqueleto_hit;
+		sprite_index = spr_inimigo_mordedor_sorrateiro_hit;
 		
 		//condicao de troca de estado
 		if(vida_atual > 0)
 		{
 			if(image_index >= image_number -1)
 			{
-				estado = "parado";
+				estado = "camuflado";
 			}
 		}
 		else
@@ -97,38 +97,27 @@ switch(estado)
 		break;
 	}
 	
+	case "dead":
+	 {
+		 
+		 if(sprite_index != spr_inimigo_mordedor_sorrateiro_dead)
+		{
+			//iniciando o que for preciso para este estado
+			image_index = 0;
+		}
+		
+		 sprite_index = spr_inimigo_mordedor_sorrateiro_dead;
+		 
+		//morrendo de verdade
+		if(image_index > image_number - 1)
+		{
+			image_speed = 0;
+			image_alpha -= .01;
+			if(image_alpha <= 0)
+			{
+				instance_destroy();
+			}
+		}
+	 }
+	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
