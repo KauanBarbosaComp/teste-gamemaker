@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_inmigo_mordedor_sorrateiro_dead",
   "bboxMode":0,
-  "bbox_bottom":0,
-  "bbox_left":0,
-  "bbox_right":0,
+  "bbox_bottom":43,
+  "bbox_left":5,
+  "bbox_right":57,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"267c8f5d-67a4-40c6-a179-7a17020305e9","name":"267c8f5d-67a4-40c6-a179-7a17020305e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a63184e9-c30e-4837-bee5-0f6f7856316b","name":"a63184e9-c30e-4837-bee5-0f6f7856316b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8f84a943-7c89-44c3-8241-e6f744a195d1","name":"8f84a943-7c89-44c3-8241-e6f744a195d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"73e0e522-feb4-4392-ad11-007df4630581","name":"73e0e522-feb4-4392-ad11-007df4630581","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"33700a27-53f5-4d97-b2b4-7eefac758e60","name":"33700a27-53f5-4d97-b2b4-7eefac758e60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7679e23-2d89-41f3-a348-9454516fd023","name":"f7679e23-2d89-41f3-a348-9454516fd023","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6d471ce-c93c-4b63-bf4f-cdc5a26e887b","name":"f6d471ce-c93c-4b63-bf4f-cdc5a26e887b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"be6c56c3-14b1-42c1-8651-79820e1244e2","name":"be6c56c3-14b1-42c1-8651-79820e1244e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d50872c6-423b-49f4-9187-dcdec94f9ce5","name":"d50872c6-423b-49f4-9187-dcdec94f9ce5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c129550e-a35d-4902-a9c4-609f629ab2a2","blendMode":0,"displayName":"default","isLocked":false,"name":"c129550e-a35d-4902-a9c4-609f629ab2a2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"98ddf453-1e2e-4c45-8b90-b5cb860a98b0","blendMode":0,"displayName":"default","isLocked":false,"name":"98ddf453-1e2e-4c45-8b90-b5cb860a98b0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_inmigo_mordedor_sorrateiro_dead",
   "nineSlice":null,
@@ -49,7 +56,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":8.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +66,7 @@
     },
     "name":"spr_inmigo_mordedor_sorrateiro_dead",
     "playback":1,
-    "playbackSpeed":10.0,
+    "playbackSpeed":15.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +76,29 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"267c8f5d-67a4-40c6-a179-7a17020305e9","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b3a0b38e-e42f-46be-99ab-5488a953561b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a63184e9-c30e-4837-bee5-0f6f7856316b","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f780e012-fa40-43aa-bf91-6291d67e81c0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f84a943-7c89-44c3-8241-e6f744a195d1","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d92bc40d-43fc-4028-bfa0-847cff7fe0e6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"73e0e522-feb4-4392-ad11-007df4630581","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"38073820-1abf-4226-8743-d0f0c7c03c22","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"33700a27-53f5-4d97-b2b4-7eefac758e60","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"697ca9d4-2066-49db-9322-4db6d74b6fb9","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7679e23-2d89-41f3-a348-9454516fd023","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7cdffd5a-5e18-4556-8bfc-865d3b1f779c","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6d471ce-c93c-4b63-bf4f-cdc5a26e887b","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"79890b96-48ac-4658-a265-50930eee4e9d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"be6c56c3-14b1-42c1-8651-79820e1244e2","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b54c0c21-fed4-4dca-aa11-9f7bb2b39ae9","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d50872c6-423b-49f4-9187-dcdec94f9ce5","path":"sprites/spr_inmigo_mordedor_sorrateiro_dead/spr_inmigo_mordedor_sorrateiro_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f9ae1d1c-9cb9-44cd-a33f-be224e4ea627","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
