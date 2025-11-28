@@ -10,8 +10,8 @@
   "name":"obj_dano",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Danos",
+    "path":"folders/Objects/Danos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

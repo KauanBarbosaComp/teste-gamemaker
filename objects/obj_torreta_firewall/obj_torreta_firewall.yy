@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_torreta_firewall",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_torreta_firewall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"Inimigos",
+    "path":"folders/Objects/Inimigos.yy",
   },
   "parentObjectId":{
-    "name":"obj_entidade",
-    "path":"objects/obj_entidade/obj_entidade.yy",
+    "name":"obj_inimigo_pai",
+    "path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -35,12 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_parado1",
-    "path":"sprites/spr_player_parado1/spr_player_parado1.yy",
+    "name":"spr_torreta_firewall_vigilante",
+    "path":"sprites/spr_torreta_firewall_vigilante/spr_torreta_firewall_vigilante.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_player_base",
-    "path":"sprites/spr_player_base/spr_player_base.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

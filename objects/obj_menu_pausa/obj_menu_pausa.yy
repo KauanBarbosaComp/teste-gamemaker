@@ -10,8 +10,8 @@
   "name":"obj_menu_pausa",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Objetos de interface",
+    "path":"folders/Objects/Objetos de interface.yy",
   },
   "parentObjectId":null,
   "persistent":false,

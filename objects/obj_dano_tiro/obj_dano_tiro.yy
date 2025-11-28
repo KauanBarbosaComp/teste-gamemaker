@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inimigo_pai",
+  "%Name":"obj_dano_tiro",
   "eventList":[],
   "managed":true,
-  "name":"obj_inimigo_pai",
+  "name":"obj_dano_tiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entidades de herança",
-    "path":"folders/Objects/Entidades de herança.yy",
+    "name":"Danos",
+    "path":"folders/Objects/Danos.yy",
   },
-  "parentObjectId":{
-    "name":"obj_entidade",
-    "path":"objects/obj_entidade/obj_entidade.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_dano_tiro",
+    "path":"sprites/spr_dano_tiro/spr_dano_tiro.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

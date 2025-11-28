@@ -11,8 +11,8 @@
   "name":"obj_entidade",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Entidades de herança",
+    "path":"folders/Objects/Entidades de herança.yy",
   },
   "parentObjectId":null,
   "persistent":false,
