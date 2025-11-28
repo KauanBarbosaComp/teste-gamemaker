@@ -12,7 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"66d7a5ca-0fbc-46dc-8a91-ce485e17b342","name":"66d7a5ca-0fbc-46dc-8a91-ce485e17b342","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eb85b826-9349-47ad-857e-c8aad41b345e","name":"eb85b826-9349-47ad-857e-c8aad41b345e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"294e6591-40fb-4a52-9c81-92970741c9b6","name":"294e6591-40fb-4a52-9c81-92970741c9b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c5698384-8ccf-45eb-8d18-4db33a5f0ca0","name":"c5698384-8ccf-45eb-8d18-4db33a5f0ca0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"650a4564-9550-4fd8-b72c-263c4922b440","name":"650a4564-9550-4fd8-b72c-263c4922b440","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"c8523854-3e6d-4be0-a8dd-072de43f481d","name":"c8523854-3e6d-4be0-a8dd-072de43f481d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"59bce956-af92-4a7c-bb88-7cd64ac48875","name":"59bce956-af92-4a7c-bb88-7cd64ac48875","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
@@ -51,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,20 +74,29 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"66d7a5ca-0fbc-46dc-8a91-ce485e17b342","path":"sprites/spr_inimigo_mordedor_sorrateiro_attack/spr_inimigo_mordedor_sorrateiro_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"530342eb-544e-48b2-b44c-7e81fdf4f850","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb85b826-9349-47ad-857e-c8aad41b345e","path":"sprites/spr_inimigo_mordedor_sorrateiro_attack/spr_inimigo_mordedor_sorrateiro_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f30cefb0-24fd-49c2-9dc0-ba7f9de32cfe","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"294e6591-40fb-4a52-9c81-92970741c9b6","path":"sprites/spr_inimigo_mordedor_sorrateiro_attack/spr_inimigo_mordedor_sorrateiro_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a76a76df-f3d9-4e9f-87b7-25c4b1000f1c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5698384-8ccf-45eb-8d18-4db33a5f0ca0","path":"sprites/spr_inimigo_mordedor_sorrateiro_attack/spr_inimigo_mordedor_sorrateiro_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fe940c88-b827-440f-9c61-6d0b48edc38a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"650a4564-9550-4fd8-b72c-263c4922b440","path":"sprites/spr_inimigo_mordedor_sorrateiro_attack/spr_inimigo_mordedor_sorrateiro_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9da50df3-f333-4684-859f-f6392a146685","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c8523854-3e6d-4be0-a8dd-072de43f481d","path":"sprites/spr_inimigo_mordedor_sorrateiro_attack/spr_inimigo_mordedor_sorrateiro_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5ceaa535-25ac-48af-b79e-2a4ba7ce6258","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5ceaa535-25ac-48af-b79e-2a4ba7ce6258","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59bce956-af92-4a7c-bb88-7cd64ac48875","path":"sprites/spr_inimigo_mordedor_sorrateiro_attack/spr_inimigo_mordedor_sorrateiro_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d338c67a-e2ba-408f-8439-77e2b8ba0ed3","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"d338c67a-e2ba-408f-8439-77e2b8ba0ed3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":31,
-    "yorigin":32,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

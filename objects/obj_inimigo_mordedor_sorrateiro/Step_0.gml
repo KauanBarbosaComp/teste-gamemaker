@@ -22,7 +22,7 @@ switch(estado)
 		sprite_index = spr_inimigo_mordedor_sorrateiro_attack;
 		
 		//causando dano
-		if(image_index >= 2 && dano == noone)
+		if(image_index >= 5 && dano == noone)
 		{
 			//cria objeto dano
 			dano = instance_create_layer(x, y - sprite_height/4, layer, obj_dano);
@@ -50,7 +50,7 @@ switch(estado)
 	
 	case "recuperando":
 	{
-		sprite_index = spr_inimigo_mordedor_sorrateiro_attack;
+		sprite_index = spr_inimigo_mordedor_sorrateiro_recuperando;
 		image_index = image_number-1;
 		image_speed = 0;
 		

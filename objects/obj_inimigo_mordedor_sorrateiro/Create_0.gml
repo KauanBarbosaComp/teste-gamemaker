@@ -2,7 +2,7 @@
 event_inherited();
 
 //configurando
-estado = "camuflado"
+estado = "camuflado";
 dano_mordida = 2;
 timer_reset = 0;
 dano = noone;
