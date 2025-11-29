@@ -22,13 +22,17 @@
   "isDnd":false,
   "layers":[
     {"$GMRTileLayer":"","%Name":"Tiles_industrial","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_industrial","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":113,"TileCompressedData":[
-          -2488,-2147483648,108,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,
+          -1556,-2147483648,6,12,13,14,15,16,17,-106,-2147483648,7,18,24,25,26,27,28,29,-215,-2147483648,2,18,
+          19,-53,-2147483648,8,18,19,12,13,14,15,16,17,-50,-2147483648,2,30,31,-6,-2147483648,1,19,-46,-2147483648,
+          8,30,31,24,25,26,27,28,29,-53,-2147483648,6,12,13,14,15,16,31,-38,-2147483648,8,12,13,14,15,16,17,18,
+          19,-105,-2147483648,8,24,25,26,27,28,29,30,31,-70,-2147483648,1,19,-111,-2147483648,2,18,31,-20,-2147483648,
+          108,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,
           14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,
           12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,16,17,12,13,14,15,
-          16,17,12,13,14,15,16,17,12,13,14,15,16,17,-5,-2147483648,108,24,25,26,27,28,29,24,25,26,27,28,29,24,
+          16,17,12,13,14,15,16,17,-5,-2147483648,108,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,
           25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,
           29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,
-          27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,-3,-2147483648,
+          27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,24,25,26,27,28,29,-3,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_industrial","path":"tilesets/ts_industrial/ts_industrial.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_18DC3F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18DC3F5","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":29.0,"scaleY":1.0,"x":896.0,"y":416.0,},

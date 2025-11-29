@@ -1,3 +1,13 @@
+/*
+___________________________________________
+############################################################################################
+ERROR in action number 1
+of  Step Event0 for object obj_dano_tiro:
+Variable obj_dano_tiro.intance_exists(100010, -2147483648) not set before reading it.
+ at gml_Object_obj_dano_tiro_Step_0 (line 21) -        if(!intance_exists(alvo)) continue;
+############################################################################################
+gml_Object_obj_dano_tiro_Step_0 (line 21)
+*/
 //1. movimento
 image_angle = direction;
 
@@ -18,7 +28,7 @@ for(var i = 0; i< qtd; i++)
 	var alvo = lista_colisao[|i];
 	
 	//se o alvo não existe ou é o próprio pai (a torreta), ignora
-	if(!intance_exists(alvo)) continue;
+	if(!instance_exists(alvo)) continue;
 	if(pai != noone && alvo == pai) continue;
 	
 	//verificação de parentesco (inimigo não acerta inimigo)
@@ -36,8 +46,8 @@ for(var i = 0; i< qtd; i++)
 			{
 				//aplica o dano
 				ds_list_add(aplicar_dano,alvo);
-				alvo.estado = "hit";
 				alvo.vida_atual -= dano;
+				alvo.estado = "hit";
 				//morre ao acertar o alvo
 				instance_destroy();
 			}
