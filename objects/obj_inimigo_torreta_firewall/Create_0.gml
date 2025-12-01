@@ -10,6 +10,8 @@ delay_tiro =60; //1 segundo de tempo entre os tiros
 ataque = 0;
 //variável de conexão com o terminal (0 é padrão)
 link_id = 0;
+ativacao = true;
+ja_desativado = false;
 
 estado = "vigilante";
 

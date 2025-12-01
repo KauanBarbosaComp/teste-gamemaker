@@ -84,17 +84,8 @@ switch(estado)
 	
 	case "hit":
 	{
-		with (obj_terminal_torreta)
-        {
-	        // "other" aqui se refere ao Terminal que está rodando o código
-	        if (link_id == other.link_id)
-	        {
-	            if(other.ativado == false)
-				{
-					estado = "desativado";
-				}
-			}
-			else
+		
+			if(ativacao)
 			{
 				if(sprite_index != spr_inimigo_torreta_firewall_hit)
 				{
@@ -113,8 +104,23 @@ switch(estado)
 					estado = "explosao";
 				}
 			}
-		}
-		
+			else if(!ativacao)
+			{
+				if(sprite_index != spr_inimigo_torreta_firewall_hit_desativado)
+				{
+					image_index = 0;
+					sprite_index = spr_inimigo_torreta_firewall_hit_desativado;
+				}
+				if(image_index > image_number - 1)
+				{
+					ja_desativado = true;
+					estado = "desativado";
+				}
+				if(vida_atual <= 0)
+				{
+					estado = "explosao";
+				}
+			}
 		
 		break;
 	}
@@ -142,25 +148,53 @@ switch(estado)
 	
 	case "desativado":
 	{
-        // A torreta "dorme". 
-        // Você pode mudar o sprite para um que pareça desligado ou apontando para baixo
-        if(sprite_index != spr_inimigo_torreta_firewall_desativada)
+        // A torreta "dorme".
+			ativacao = false;
+			show_debug_message("desativou");
+	        // Você pode mudar o sprite para um que pareça desligado ou apontando para baixo
+			if(ja_desativado = false)
+			{
+				show_debug_message("entrou na sprite errada")
+		        if(sprite_index != spr_inimigo_torreta_firewall_desativada)
+				{
+					image_index = 0;
+					sprite_index = spr_inimigo_torreta_firewall_desativada;
+				}
+				if(image_index > image_number-1)
+				{
+					image_index = image_number-1;
+					image_speed =0;
+				}
+				image_angle = lerp(image_angle,-90,0.1);
+			}
+			else if(ja_desativado = true)
+			{
+				show_debug_message("entrou na sprite certa")
+				if(sprite_index != spr_inimigo_torreta_firewall_desativada)
+				{
+					image_index = 0;
+					sprite_index = spr_inimigo_torreta_firewall_desativada;
+					image_index = image_number-1;
+					image_speed =0;
+				}
+			}
+			
+			break;
+	}
+		/*else if(ativacao > 0)
 		{
-			image_index = 0;
+			show_debug_message("desativou errado");
+			if(sprite_index != spr_inimigo_torreta_firewall_desativada)
 			sprite_index = spr_inimigo_torreta_firewall_desativada;
-		}
-		if(image_index > image_number-1)
-		{
-			image_index = image_number-1;
-			image_speed =0;
-		}
-		image_angle = lerp(image_angle,-90,0.1);
+			image_index = image_number - 1;
+			image_speed = 0;
+		}*/
 		
         
         // Se quiser uma animação visual dela desligando, faça aqui.
         // O importante é: ela NÃO atira e NÃO procura o player.
-        break;
-	}
+        
+	//}
 }
 
 
