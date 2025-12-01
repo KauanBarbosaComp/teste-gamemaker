@@ -7,7 +7,9 @@ vida_atual = vida_max;
 raio_alerta = 250; //distancia para começar atirar
 timer_tiro =0;
 delay_tiro =60; //1 segundo de tempo entre os tiros
-ataque = 1;
+ataque = 0;
+//variável de conexão com o terminal (0 é padrão)
+link_id = 0;
 
 estado = "vigilante";
 
